@@ -1,0 +1,16 @@
+.breadcrumb {
+  justify-content: flex-end;
+  background-color: transparent;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+nav div {
+  background-color: transparent;
+}
+
+.breadcrumb-item.active {
+  color: orange;
+}

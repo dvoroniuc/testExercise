@@ -1,0 +1,56 @@
+.cube-parent-container {
+  height: 10rem;
+  font-size: 1.5rem;
+  margin: 3rem;
+  width: auto;
+}
+
+.cube-container {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+
+.cube {
+  width: 9rem;
+  height: 9rem;
+  margin: 0.5rem;
+  border-radius: inherit;
+}
+
+.cube-abbr {
+  margin: 0.5rem;
+  color: white;
+  opacity: 0.8;
+  height: inherit;
+  font-size: 3rem;
+  font-weight: bold;
+  align-items: flex-end;
+  display: flex;
+}
+
+.col-sm-8 .cube-label {
+  width: 50%;
+}
+.cube-label {
+  margin-left: 8px;
+}
+
+.content-container {
+  border: 2px solid grey;
+  margin: 2%;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+.cube-parent-container .row {
+  height: 10rem;
+}
+
+@media (max-width: 710px) {
+  .col-sm-8 .cube-label {
+    width: 30px !important;
+  }
+}
